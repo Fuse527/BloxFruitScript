@@ -617,7 +617,7 @@ end
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
-local Window = Fluent:CreateWindow({Title = "AURORA HUB",SubTitle = "| ",TabWidth = 155,Size = UDim2.fromOffset(555, 320),Acrylic = false,Theme = "Aqua",MinimizeKey = Enum.KeyCode.End})
+local Window = Fluent:CreateWindow({Title = "EXORCIST HUB",SubTitle = "| ",TabWidth = 155,Size = UDim2.fromOffset(555, 320),Acrylic = false,Theme = "Dark",MinimizeKey = Enum.KeyCode.End})
 local Tabs = {
   Main = Window:AddTab({Title = "Farm", Icon = ""}),
   Settings = Window:AddTab({Title = "Config", Icon = ""}),
@@ -662,7 +662,7 @@ ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.218742043, 0, -0.155235752, 0)
 ImageButton.Size = UDim2.new(0, 64, 0, 64)
-ImageButton.Image = "rbxassetid://72732783664181"
+ImageButton.Image = "rbxassetid://133206297943639"
 ImageButton.Draggable = true
 ImageButton.MouseButton1Click:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
